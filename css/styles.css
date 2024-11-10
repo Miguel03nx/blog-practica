@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(246, 208, 80);
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-weight: bolder;
+    -webkit-text-stroke: .5px black
+}
+
+.titulo{
+    background-color: rgb(246, 208, 80);
+    width: 22%;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    padding: .2rem;
+}
+
+.container{
+    background-color: white;
+    height: 75vh;
+    width: 21rem;
+    padding: 1.2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow:  6px 5px 1px black;
+}
+
+.imagenBlog{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.descripcion{
+    opacity: 50%;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-weight: bolder;
+    -webkit-text-stroke: .1px black
+}
+
+.imageavatar{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
